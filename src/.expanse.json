@@ -1,0 +1,505 @@
+{
+  "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+  "objects": {
+    "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
+      "components": {},
+      "geometry": null,
+      "id": "47699d9e-18a5-4f88-a4f9-b8be92e8f74a",
+      "light": {
+        "intensity": 0.7,
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Ambient Light",
+      "order": 3.1185726331135637,
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "66ed9bea-c576-43d9-a664-abca60350e0a": {
+      "components": {},
+      "geometry": null,
+      "id": "66ed9bea-c576-43d9-a664-abca60350e0a",
+      "light": {
+        "castShadow": false,
+        "intensity": 0.7,
+        "type": "directional"
+      },
+      "material": null,
+      "name": "Directional Light",
+      "order": 4.118572633113564,
+      "position": [
+        1.5306061712204562,
+        5.186774162958127,
+        4.90661291852098
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
+      "camera": {
+        "allowedDevices": "mobile",
+        "direction": "front",
+        "type": "perspective",
+        "xr": {
+          "desktop": "AR",
+          "face": {
+            "enableEars": false,
+            "maxDetections": 1,
+            "meshGeometryFace": true,
+            "mirroredDisplay": true,
+            "meshGeometryEyes": false
+          },
+          "phone": "AR",
+          "xrCameraType": "face"
+        },
+        "xrCameraType": "face"
+      },
+      "components": {},
+      "geometry": null,
+      "hidden": false,
+      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "material": null,
+      "name": "Camera",
+      "order": 0.11857263311356392,
+      "position": [
+        1.1847511132128638e-15,
+        2.0411319772017085,
+        2.6530125295102027
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -6.123233995736766e-17
+      ],
+      "scale": [
+        0.9999998646558023,
+        0.9999999931513284,
+        0.9999998715044741
+      ]
+    },
+    "9ad33163-8e00-4957-9e58-0a54028a7bc8": {
+      "id": "9ad33163-8e00-4957-9e58-0a54028a7bc8",
+      "position": [
+        0,
+        -0.11337703283105371,
+        0.020754602165704683
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -6.123233995736766e-17
+      ],
+      "scale": [
+        0.9602744563191316,
+        0.9602744563191316,
+        0.9602744563191316
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7a0827c0-51b7-42ba-8081-309452015504",
+      "components": {
+        "4882cbef-f94c-45bd-ab85-b4a8746c92e1": {
+          "id": "4882cbef-f94c-45bd-ab85-b4a8746c92e1",
+          "name": "hider-material-glb",
+          "parameters": {
+            "targetEntity": {
+              "type": "entity",
+              "id": "9ad33163-8e00-4957-9e58-0a54028a7bc8"
+            }
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Models/head-occluder.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Head Occluder",
+      "order": 0.04659207488410133
+    },
+    "1adf1912-8f70-40a4-8101-c97144b0f9fd": {
+      "id": "1adf1912-8f70-40a4-8101-c97144b0f9fd",
+      "position": [
+        -0.2048376945459025,
+        2.0320216959049593,
+        0.04455680313824662
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "3887586e-59ba-4d2c-a7d4-cbd054a20d37": {
+          "id": "3887586e-59ba-4d2c-a7d4-cbd054a20d37",
+          "name": "face-anchor",
+          "parameters": {}
+        }
+      },
+      "face": {
+        "id": 1,
+        "addAttachmentState": false
+      },
+      "name": "Face",
+      "order": 1.118572633113564
+    },
+    "7a0827c0-51b7-42ba-8081-309452015504": {
+      "id": "7a0827c0-51b7-42ba-8081-309452015504",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": {
+        "type": "face",
+        "id": 1
+      },
+      "material": {
+        "type": "hider"
+      },
+      "parentId": "1adf1912-8f70-40a4-8101-c97144b0f9fd",
+      "components": {
+        "f7a9f20d-0ea1-4258-b61d-e75217e55f71": {
+          "id": "f7a9f20d-0ea1-4258-b61d-e75217e55f71",
+          "name": "face-mesh-anchor",
+          "parameters": {}
+        }
+      },
+      "name": "Face Mesh",
+      "order": 0.7416741531636427
+    },
+    "93db3a7c-6685-4c13-8084-ef8add915ecf": {
+      "id": "93db3a7c-6685-4c13-8084-ef8add915ecf",
+      "position": [
+        0.00021600000036414713,
+        -0.036883000284433365,
+        0.62990802526474
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1adf1912-8f70-40a4-8101-c97144b0f9fd",
+      "components": {
+        "9afb20f4-a745-40b8-b1b9-6f686ecc365a": {
+          "id": "9afb20f4-a745-40b8-b1b9-6f686ecc365a",
+          "name": "face-attachment",
+          "parameters": {
+            "point": "noseBridge"
+          }
+        }
+      },
+      "name": "noseBridge",
+      "order": 1.7416741531636428
+    },
+    "f9357ed9-57b6-49a6-acf8-124fc0c5fd67": {
+      "id": "f9357ed9-57b6-49a6-acf8-124fc0c5fd67",
+      "position": [
+        0.0018923685614160302,
+        -0.1490172969892989,
+        -0.08238533100650947
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "parentId": "93db3a7c-6685-4c13-8084-ef8add915ecf",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/pilot_green_sunglasses.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "ray-ban_sunglasses.glb",
+      "order": -1.0949821516713323
+    },
+    "0c777776-bfed-469a-9ad9-4cacf3c40c27": {
+      "id": "0c777776-bfed-469a-9ad9-4cacf3c40c27",
+      "position": [
+        0.8978546702376874,
+        0.28106682929910143,
+        -0.1683078999838754
+      ],
+      "rotation": [
+        3.469446951953615e-18,
+        -1.0408340855860846e-17,
+        -3.035766082959413e-18,
+        1
+      ],
+      "scale": [
+        0.9999999999999999,
+        0.9999999999999998,
+        0.9999999999999999
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 0.5,
+        "height": 0.2
+      },
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "side": "front",
+        "depthTest": true,
+        "depthWrite": true,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Textures/test6.png"
+        },
+        "opacity": 1,
+        "opacityMap": "",
+        "blending": "normal",
+        "repeatX": 1,
+        "repeatY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "wireframe": false,
+        "forceTransparent": false,
+        "roughness": 0.5,
+        "metalness": 0.5,
+        "emissiveIntensity": 0,
+        "roughnessMap": "",
+        "metalnessMap": "",
+        "emissiveMap": "",
+        "emissiveColor": "#ffffff"
+      },
+      "parentId": "7a0827c0-51b7-42ba-8081-309452015504",
+      "components": {},
+      "name": "Empty Object",
+      "order": -1.0465920748841013,
+      "hidden": true
+    },
+    "92fb244d-e034-461c-8698-f72d53787fee": {
+      "id": "92fb244d-e034-461c-8698-f72d53787fee",
+      "position": [
+        -0.2101558893918991,
+        -0.9888798594474792,
+        -0.13074387609958737
+      ],
+      "rotation": [
+        -7.80625564189563e-18,
+        1.3877787807814454e-17,
+        -1.0842021724855044e-18,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1.0000000000000002
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0c777776-bfed-469a-9ad9-4cacf3c40c27",
+      "components": {},
+      "name": "UI Element"
+    },
+    "a1b2fe5a-083e-43bd-91c8-b99ab4fcf7d5": {
+      "id": "a1b2fe5a-083e-43bd-91c8-b99ab4fcf7d5",
+      "position": [
+        -0.9678133913338747,
+        0.21111294424040983,
+        -0.006995216977885292
+      ],
+      "rotation": [
+        6.93889390390723e-18,
+        -1.1709383462843448e-17,
+        -3.876022766635678e-18,
+        1
+      ],
+      "scale": [
+        1.0000000000000002,
+        1,
+        0.9999999999999999
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 0.5,
+        "height": 0.2
+      },
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "side": "front",
+        "depthTest": true,
+        "depthWrite": true,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Textures/test6.png"
+        },
+        "opacity": 1,
+        "opacityMap": "",
+        "blending": "normal",
+        "repeatX": 1,
+        "repeatY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "wireframe": false,
+        "forceTransparent": false,
+        "roughness": 0.5,
+        "metalness": 0.5,
+        "emissiveIntensity": 0,
+        "roughnessMap": "",
+        "metalnessMap": "",
+        "emissiveMap": "",
+        "emissiveColor": "#ffffff"
+      },
+      "parentId": "7a0827c0-51b7-42ba-8081-309452015504",
+      "components": {},
+      "name": "Empty Object (1)",
+      "order": -1.0465920748841013,
+      "ui": {
+        "image": {
+          "type": "asset",
+          "asset": "assets/Textures/test6.png"
+        }
+      },
+      "hidden": true
+    },
+    "80270090-4486-4298-a8b9-661981611a60": {
+      "id": "80270090-4486-4298-a8b9-661981611a60",
+      "position": [
+        -0.2101558893918991,
+        -0.9888798594474792,
+        -0.13074387609958737
+      ],
+      "rotation": [
+        -7.80625564189563e-18,
+        1.3877787807814454e-17,
+        -1.0842021724855044e-18,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1.0000000000000002
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a1b2fe5a-083e-43bd-91c8-b99ab4fcf7d5",
+      "components": {},
+      "name": "UI Element (1)",
+      "order": 0.025070176746509132
+    },
+    "72d525f7-357f-4688-8713-27e5f8f809e1": {
+      "id": "72d525f7-357f-4688-8713-27e5f8f809e1",
+      "position": [
+        -0.07331410787658338,
+        3.0339298206639325,
+        0.6990137405448688
+      ],
+      "rotation": [
+        2.081668171172169e-17,
+        0,
+        -3.794707603699266e-18,
+        1
+      ],
+      "scale": [
+        1,
+        0.25,
+        0.25
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1.5,
+        "height": 1.5
+      },
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Reminder3b.png"
+        },
+        "side": "double",
+        "blending": "normal",
+        "roughness": 0.5,
+        "metalness": 0.5,
+        "opacity": 1,
+        "emissiveIntensity": 0,
+        "roughnessMap": "",
+        "metalnessMap": "",
+        "opacityMap": "",
+        "emissiveMap": "",
+        "emissiveColor": "#ffffff",
+        "repeatX": 1,
+        "repeatY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "depthTest": true,
+        "depthWrite": true,
+        "wireframe": false,
+        "forceTransparent": false
+      },
+      "components": {},
+      "name": "Plane",
+      "order": 0.3818148919390247
+    }
+  },
+  "historyVersion": "mhl1fyrf"
+}
