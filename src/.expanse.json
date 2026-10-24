@@ -498,7 +498,8 @@
       },
       "components": {},
       "name": "Plane",
-      "order": 0.3818148919390247
+      "order": 0.3818148919390247,
+      "hidden": true
     }
   },
   "historyVersion": "mhl1fyrf"
